@@ -51,7 +51,7 @@ import io.swagger.client.auth.OAuth;
 
 public class ApiClient {
 
-    private String basePath = "http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com";
+    private String basePath = "http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private String tempFolderPath = null;
@@ -104,7 +104,7 @@ public class ApiClient {
     /**
      * Set base path
      *
-     * @param basePath Base path of the URL (e.g http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com
+     * @param basePath Base path of the URL (e.g http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/
      * @return An instance of OkHttpClient
      */
     public ApiClient setBasePath(String basePath) {

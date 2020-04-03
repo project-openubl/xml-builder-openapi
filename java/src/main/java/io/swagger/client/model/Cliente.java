@@ -27,7 +27,7 @@ import java.io.IOException;
  * Cliente
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-04-02T05:58:18.345Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-04-03T17:52:28.678Z[GMT]")
 public class Cliente {
   @SerializedName("contacto")
   private Contacto contacto = null;
