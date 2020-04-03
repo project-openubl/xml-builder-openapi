@@ -12,7 +12,7 @@ Contact: projectopenubl+subscribe@googlegroups.com
     
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0CA88E9B-0442-4681-938C-23F9066634A0}</ProjectGuid>
+    <ProjectGuid>{4AF05DC7-1118-45AF-85FF-91F354C8F1D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IO.Swagger</RootNamespace>

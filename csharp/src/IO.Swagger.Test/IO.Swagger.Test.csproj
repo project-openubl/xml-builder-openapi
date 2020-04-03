@@ -81,7 +81,7 @@ Contact: projectopenubl+subscribe@googlegroups.com
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
       <ProjectReference Include="..\IO.Swagger\IO.Swagger.csproj">
-          <Project>{0CA88E9B-0442-4681-938C-23F9066634A0}</Project>
+          <Project>{4AF05DC7-1118-45AF-85FF-91F354C8F1D0}</Project>
           <Name>IO.Swagger</Name>
       </ProjectReference>
   </ItemGroup>

@@ -114,7 +114,7 @@ namespace IO.Swagger.Client
         public Configuration()
         {
             UserAgent = "Swagger-Codegen/1.0.0/csharp";
-            BasePath = "http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com";
+            BasePath = "http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/";
             DefaultHeader = new ConcurrentDictionary<string, string>();
             ApiKey = new ConcurrentDictionary<string, string>();
             ApiKeyPrefix = new ConcurrentDictionary<string, string>();
@@ -130,7 +130,7 @@ namespace IO.Swagger.Client
             IDictionary<string, string> defaultHeader,
             IDictionary<string, string> apiKey,
             IDictionary<string, string> apiKeyPrefix,
-            string basePath = "http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com") : this()
+            string basePath = "http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/") : this()
         {
             if (string.IsNullOrWhiteSpace(basePath))
                 throw new ArgumentException("The provided basePath is invalid.", "basePath");

@@ -52,12 +52,12 @@ namespace IO.Swagger.Client
         public ApiClient()
         {
             Configuration = IO.Swagger.Client.Configuration.Default;
-            RestClient = new RestClient("http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com");
+            RestClient = new RestClient("http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/");
         }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ApiClient" /> class
-        /// with default base path (http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com).
+        /// with default base path (http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/).
         /// </summary>
         /// <param name="config">An instance of Configuration.</param>
         public ApiClient(Configuration config)
@@ -72,7 +72,7 @@ namespace IO.Swagger.Client
         /// with default configuration.
         /// </summary>
         /// <param name="basePath">The base path.</param>
-        public ApiClient(String basePath = "http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com")
+        public ApiClient(String basePath = "http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/")
         {
            if (String.IsNullOrEmpty(basePath))
                 throw new ArgumentException("basePath cannot be empty");
