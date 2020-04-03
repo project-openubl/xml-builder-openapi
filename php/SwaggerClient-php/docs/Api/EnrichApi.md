@@ -1,6 +1,6 @@
 # Swagger\Client\EnrichApi
 
-All URIs are relative to *http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com*
+All URIs are relative to *http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

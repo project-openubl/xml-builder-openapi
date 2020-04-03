@@ -80,7 +80,7 @@ class Configuration
      *
      * @var string
      */
-    protected $host = 'http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com';
+    protected $host = 'http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/';
 
     /**
      * User agent of the HTTP request, set to "PHP-Swagger" by default

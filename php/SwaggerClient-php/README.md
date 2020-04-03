@@ -131,7 +131,7 @@ try {
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com*
+All URIs are relative to *http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
