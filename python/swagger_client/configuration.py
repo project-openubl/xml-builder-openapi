@@ -46,7 +46,7 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
     def __init__(self):
         """Constructor"""
         # Default Base url
-        self.host = "http://xml-builder-project-openubl.apps.us-west-1.starter.openshift-online.com"
+        self.host = "http://xml-builder-project-openubl.apps.ca-central-1.starter.openshift-online.com/"
         # Temp file folder for downloading files
         self.temp_folder_path = None
 
